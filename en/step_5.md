@@ -14,7 +14,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 1
-line_highlights: 2-3,10
+line_highlights: 2-3, 10
 ---
 body {
   background-color: lightblue; /* Change the page background colour */

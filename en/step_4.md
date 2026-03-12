@@ -14,7 +14,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 7
-line_highlights: 21-24,26-29
+line_highlights: 21-24, 26-29
 ---
 <body>
 
