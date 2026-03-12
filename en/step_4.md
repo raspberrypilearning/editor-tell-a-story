@@ -1,56 +1,50 @@
-## Challenge
-
---- challenge ---
-
-Edit the CSS code to customise your webpage. 
+<h2 class="c-project-heading--task">Finish your story</h2>
 
 --- task ---
-Click on the file `style.css`:
-
-![A screenshot of the UI for the code editor with the file style.css highlighted](images/codeed-css.png)
-
+Repeat the panel pattern to add more scenes until your story feels complete.
 --- /task ---
 
---- task ---
-Find the style for the body, and change the font. 
+Copy the `<div>` pattern and change the image and caption each time you add a new part of the story.
 
-You can choose different fonts such as:
-+ <span style="font-family: Arial;">Arial</span>
-+ <span style="font-family: Impact;">Impact</span>
-+ <span style="font-family: Tahoma;">Tahoma</span>
+<div class="c-project-code">
 
 --- code ---
 ---
-language: css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 3
+line_number_start: 7
+line_highlights: 21-24,26-29
 ---
-body {
-  background-color: white;
-  font-family: Comic Sans MS;
-}
+<body>
+
+  <h1>Space adventure</h1>
+
+  <div>
+    <img src="sun.png">
+    <p>There was once a star.</p>
+  </div>
+
+  <div>
+    <img src="spaceship.png">
+    <p>The star asked a friend to visit.</p>
+  </div>
+
+  <div> <!-- Copy the panel pattern to add another scene -->
+    <img src="robot.png"> <!-- Pick a different image for this part -->
+    <p>A robot arrived with a surprise map.</p> <!-- Write the next line of your story -->
+  </div>
+
+  <div> <!-- Add one more panel to finish this version of the story -->
+    <img src="trophy.png">
+    <p>Together they found the treasure.</p> <!-- End your story with a final line -->
+  </div>
+
+</body>
 --- /code ---
---- /task ---
+
+</div>
 
 --- task ---
-Change the background colour to a different colour:
-
---- code ---
----
-language: css
-line_numbers: true
-line_number_start: 1
-line_highlights: 2
----
-body {
-  background-color: white;
-  font-family: Comic Sans MS;
-}
---- /code ---
-
-Find more CSS colour names [here](http://jumpto.cc/colours){:target="_blank"}.
-
+Test: Click **Run** and check that your page now shows several panels in the correct order.
 --- /task ---
-
---- /challenge ---

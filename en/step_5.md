@@ -1,18 +1,54 @@
-## What can you do now?
+<h2 class="c-project-heading--task">Challenge</h2>
 
-If you are following the [HTML and CSS: Module 1](https://projects.raspberrypi.org/en/pathways/webdev-module-1) pathway, you can move on to the [Wanted](https://projects.raspberrypi.org/en/projects/wanted) project. In this project, you will learn how to make your own poster.
+--- task ---
+Customise the colours and font so the page matches the mood of your story.
+--- /task ---
 
---- print-only --- 
+Open `style.css` and try your own colour and font choices.
 
-![A wanted poster of a robot](images/wanted-final.png)
+<div class="c-project-code">
 
---- /print-only ---
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 1
+line_highlights: 2-3,10
+---
+body {
+  background-color: lightblue; /* Change the page background colour */
+  font-family: Arial; /* Pick a font that matches your story */
+}
+div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 2px;
+  background-color: lightyellow; /* Give each panel a new background colour */
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+p {
+  position: absolute;
+  background: white;
+  bottom: -1em;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  padding: 5px;
+  margin-right: -2px;
+  font-size: 10pt;
+}
+img {
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+--- /code ---
 
---- no-print ---
+</div>
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/wanted-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
-
---- /no-print ---
-
-Or, why not try out another [HTML](https://projects.raspberrypi.org/en/projects?software%5B%5D=html-css-javascript) project.
+--- task ---
+Test: Click **Run** and check that the font and colours on your page have changed.
+--- /task ---

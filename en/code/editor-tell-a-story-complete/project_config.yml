@@ -1,0 +1,4 @@
+name: 'Tell A Story Complete'
+identifier: 'editor-tell-a-story-complete'
+type: 'html'
+build: true

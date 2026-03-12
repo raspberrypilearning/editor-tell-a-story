@@ -9,7 +9,7 @@ curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
 title: Tell a story
 description: Create a webpage to tell a story, joke, or poem
 pdf: resources/rpfi-tell-a-story.pdf
-original_url: https://codeclubprojects.org/en-GB/webdev/tell-a-story
+original_url: https://codeclubprojects.org/en-GB/webdev/editor-tell-a-story
 interests: literature
 technologies: html-css-javascript
 site_areas: projects
@@ -18,14 +18,15 @@ software: html-css-javascript
 version: 4
 last_tested: 2018-12-01
 steps:
-- title: What you will make
-- title: Editing your story
-  completion:
-  - engaged
-- title: Telling your story
-  completion:
-  - internal
-- title: Challenge
-  challenge: true
-  completion:
-  - external
+  - title: What you will make
+  - title: Add the opening line
+    completion:
+      - engaged
+  - title: Add a second panel
+    completion:
+      - internal
+  - title: Finish your story
+    completion:
+      - external
+  - title: Challenge
+    challenge: true
