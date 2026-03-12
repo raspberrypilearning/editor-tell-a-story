@@ -1,0 +1,4 @@
+name: 'Tell A Story Starter'
+identifier: 'editor-tell-a-story-starter'
+type: 'html'
+build: true
