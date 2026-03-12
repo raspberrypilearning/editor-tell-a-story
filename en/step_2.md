@@ -14,7 +14,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 9
-line_highlights: 9,13
+line_highlights: 9, 13
 ---
   <h1>Space adventure</h1> <!-- Change the page heading to your story title -->
 
