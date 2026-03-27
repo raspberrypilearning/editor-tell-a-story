@@ -4,8 +4,6 @@
 Change the heading and first caption so your webpage starts telling your own story.
 --- /task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/tell-a-story-starter){:target="_blank"}, then edit `index.html`.
-
 <div class="c-project-code">
 
 --- code ---
