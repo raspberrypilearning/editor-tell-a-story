@@ -1,8 +1,9 @@
-<h2 class="c-project-heading--task">Add the opening line</h2>
+<h2 class="c-project-heading--task">Add a second panel</h2>
 
---- task ---
-Change the heading and first caption so your webpage starts telling your own story.
---- /task ---
+### Step 1
+Create a new panel with a picture and caption so your story has a second part.
+
+Choose an image from the **Images** tab, then add another `<div>` underneath the first one in `index.html`.
 
 <div class="c-project-code">
 
@@ -11,19 +12,21 @@ Change the heading and first caption so your webpage starts telling your own sto
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 9
-line_highlights: 9, 13
+line_number_start: 11
+line_highlights: 16-19
 ---
-  <h1>Space adventure</h1> <!-- Change the page heading to your story title -->
-
   <div>
     <img src="sun.png">
-    <p>There was once a star.</p> <!-- Add the opening line of your story -->
+    <p>There was once a star.</p>
+  </div>
+
+  <div> <!-- Add another panel for the next part of your story -->
+    <img src="spaceship.png"> <!-- Use the filename of an image you chose -->
+    <p>The star asked a friend to visit.</p> <!-- Add the next line of your story -->
   </div>
 --- /code ---
 
 </div>
 
---- task ---
-Test: Click **Run** and check that your page shows your new title and the first line of your story.
---- /task ---
+### Step 2
+Test: Click **Run** and check that a second panel appears with your new picture and text.

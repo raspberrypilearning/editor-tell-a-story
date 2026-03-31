@@ -17,16 +17,15 @@ hardware: ''
 software: html-css-javascript
 version: 4
 last_tested: 2018-12-01
+landing: true
 steps:
-  - title: What you will make
   - title: Add the opening line
-    completion:
-      - engaged
   - title: Add a second panel
     completion:
-      - internal
+      - engaged
   - title: Finish your story
     completion:
+      - internal
       - external
   - title: Challenge
     challenge: true
