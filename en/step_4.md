@@ -1,50 +1,52 @@
-<h2 class="c-project-heading--task">Finish your story</h2>
+<h2 class="c-project-heading--task">Challenge</h2>
 
---- task ---
-Repeat the panel pattern to add more scenes until your story feels complete.
---- /task ---
+### Step 1
+Customise the colours and font so the page matches the mood of your story.
 
-Copy the `<div>` pattern and change the image and caption each time you add a new part of the story.
+Open `style.css` and try your own colour and font choices.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 7
-line_highlights: 21-24, 26-29
+line_number_start: 1
+line_highlights: 2-3, 10
 ---
-<body>
-
-  <h1>Space adventure</h1>
-
-  <div>
-    <img src="sun.png">
-    <p>There was once a star.</p>
-  </div>
-
-  <div>
-    <img src="spaceship.png">
-    <p>The star asked a friend to visit.</p>
-  </div>
-
-  <div> <!-- Copy the panel pattern to add another scene -->
-    <img src="robot.png"> <!-- Pick a different image for this part -->
-    <p>A robot arrived with a surprise map.</p> <!-- Write the next line of your story -->
-  </div>
-
-  <div> <!-- Add one more panel to finish this version of the story -->
-    <img src="trophy.png">
-    <p>Together they found the treasure.</p> <!-- End your story with a final line -->
-  </div>
-
-</body>
+body {
+  background-color: lightblue; /* Change the page background colour */
+  font-family: Arial; /* Pick a font that matches your story */
+}
+div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 2px;
+  background-color: lightyellow; /* Give each panel a new background colour */
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+p {
+  position: absolute;
+  background: white;
+  bottom: -1em;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  padding: 5px;
+  margin-right: -2px;
+  font-size: 10pt;
+}
+img {
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
 --- /code ---
 
 </div>
 
---- task ---
-Test: Click **Run** and check that your page now shows several panels in the correct order.
---- /task ---
+### Step 2
+Test: Click **Run** and check that the font and colours on your page have changed.

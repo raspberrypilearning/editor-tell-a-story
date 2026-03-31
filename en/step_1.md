@@ -1,14 +1,27 @@
-<h2 class="c-project-heading--task">You will make</h2>
+<h2 class="c-project-heading--task">Add the opening line</h2>
 
---- task ---
-Make a webpage that tells a story, joke, or poem with pictures and text panels.
---- /task ---
+### Step 1
+Change the heading and first caption so your webpage starts telling your own story.
 
-<div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-tell-a-story-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 9
+line_highlights: 9, 13
+---
+  <h1>Space adventure</h1> <!-- Change the page heading to your story title -->
+
+  <div>
+    <img src="sun.png">
+    <p>There was once a star.</p> <!-- Add the opening line of your story -->
+  </div>
+--- /code ---
+
 </div>
 
-<div class="c-project-callout c-project-callout--tip" style="font-size: 1.1em">
-  <strong>Tip:</strong> Press <strong>Run</strong> and read through the finished example to see how each panel adds one more part of the story.
-</div>
+### Step 2
+Test: Click **Run** and check that your page shows your new title and the first line of your story.
