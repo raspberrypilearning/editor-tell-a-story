@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Add a second panel</h2>
 
-### Step 1
 Create a new panel with a picture and caption so your story has a second part.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Choose an image from the **Images** tab, then add another `<div>` underneath the first one in `index.html`.
 
@@ -28,5 +29,6 @@ line_highlights: 16-19
 
 </div>
 
-### Step 2
-Test: Click **Run** and check that a second panel appears with your new picture and text.
+## Now run your code
+
+Click **Run** and check that a second panel appears with your new picture and text.

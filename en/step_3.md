@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Finish your story</h2>
 
-### Step 1
 Repeat the panel pattern to add more scenes until your story feels complete.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Copy the `<div>` pattern and change the image and caption each time you add a new part of the story.
 
@@ -44,5 +45,6 @@ line_highlights: 21-24, 26-29
 
 </div>
 
-### Step 2
-Test: Click **Run** and check that your page now shows several panels in the correct order.
+## Now run your code
+
+Click **Run** and check that your page now shows several panels in the correct order.
