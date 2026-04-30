@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Add the opening line</h2>
 
-### Step 1
 Change the heading and first caption so your webpage starts telling your own story.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 
@@ -23,5 +24,6 @@ line_highlights: 9, 13
 
 </div>
 
-### Step 2
-Test: Click **Run** and check that your page shows your new title and the first line of your story.
+## Now run your code
+
+Click **Run** and check that your page shows your new title and the first line of your story.

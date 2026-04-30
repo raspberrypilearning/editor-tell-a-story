@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Challenge</h2>
 
-### Step 1
 Customise the colours and font so the page matches the mood of your story.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Open `style.css` and try your own colour and font choices.
 
@@ -48,5 +49,6 @@ img {
 
 </div>
 
-### Step 2
-Test: Click **Run** and check that the font and colours on your page have changed.
+## Now run your code
+
+Click **Run** and check that the font and colours on your page have changed.
