@@ -2,8 +2,6 @@
 
 Create a new panel with a picture and caption so your story has a second part.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Choose an image from the **Images** tab, then add another `<div>` underneath the first one in `index.html`.
 
 <div class="c-project-code">
