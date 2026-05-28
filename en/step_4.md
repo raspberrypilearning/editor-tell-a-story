@@ -2,8 +2,6 @@
 
 Customise the colours and font so the page matches the mood of your story.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Open `style.css` and try your own colour and font choices.
 
 <div class="c-project-code">
