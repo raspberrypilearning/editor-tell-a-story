@@ -1,19 +1,10 @@
-<h2 class="c-project-heading--task">Add a second panel</h2>
+## Add a second panel
 
 Create a new panel with a picture and caption so your story has a second part.
 
 Choose an image from the **Images** tab, then add another `<div>` underneath the first one in `index.html`.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 11
-line_highlights: 16-19
----
+```html filename="index.html" line_numbers="true" line_number_start="11" line_highlights="16-19"
   <div>
     <img src="sun.png">
     <p>There was once a star.</p>
@@ -23,9 +14,7 @@ line_highlights: 16-19
     <img src="spaceship.png"> <!-- Use the filename of an image you chose -->
     <p>The star asked a friend to visit.</p> <!-- Add the next line of your story -->
   </div>
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 

@@ -1,19 +1,10 @@
-<h2 class="c-project-heading--task">Finish your story</h2>
+## Finish your story
 
 Repeat the panel pattern to add more scenes until your story feels complete.
 
 Copy the `<div>` pattern and change the image and caption each time you add a new part of the story.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 7
-line_highlights: 21-24, 26-29
----
+```html filename="index.html" line_numbers="true" line_number_start="7" line_highlights="21-24,26-29"
 <body>
 
   <h1>Space adventure</h1>
@@ -39,9 +30,7 @@ line_highlights: 21-24, 26-29
   </div>
 
 </body>
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 
